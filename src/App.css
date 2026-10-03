@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+button{
+    margin-left: 12px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    width: 86px;
+    height: 36px;
+    color: white;
+    /* font-family: Poppins; */
+}
+body{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Poppins;
+    background: rgb(0 159 255 / 31%);
+}
+input{
+    height: 29px;
+    border: 1px solid rgba(81, 81, 241, 0.911)  ;
+    border-radius: 7px;
+  
+   
+}
+li{
+    border: 2PX SOLID rgba(52, 52, 247, 0.548)  ;
+    background: rgba(0, 0, 255, 0.199);
+    width: 269px;
+    padding-left: 8px;
+    margin: 10px;
+ 
+    height: 41px;
+    /* text-align: center; */
+    display: flex;
+    position: relative;
+    left: 1px;
+    align-items: center ;
+    border-radius: 10px;
+    margin-left: -14px;
+}
+
+img{
+    height: 24px;
+    width: 38px;
+    margin-left: 102px;
+    /* display: flex; */
+    align-content: stretch;
+    margin-top: 7px;
+
+
+    display: block;
+    position: absolute;
+    left: 133px;
+    top: 1px;
+   
+}
+/* h1,h3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.add_data{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.App{
+    text-align: center;
+}
+.form_list{
+    align-items: center;
+    text-align: center;
+    width: 332px;
+    background: white;
+    height: 307PX;
+    BORDER-RADIUS: 10PX;
+    PADDING-TOP: 20PX;
+}
+h3{
+    WIDTH: 334PX;
+}
